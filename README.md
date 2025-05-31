@@ -25,4 +25,10 @@ git clone https://github.com/NvChad/starter ~/.config/nvim && nvim
 ### Or install my already configured version
 ```bash
 ```
+It'll clone setup and start up Neovim for the firsttime, please wait a few minute to download plugin 
 
+### You can safely remove the .git
+```bash
+rm -rf ~/.config/nvim/.git
+rm ~/.config/nvim/*.png
+```
